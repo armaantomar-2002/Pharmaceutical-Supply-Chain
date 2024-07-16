@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 90%);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 25%);
+  }
+  
+.container{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    padding: 25px ;
+}
+.header {
+    text-align: center;
+    color: #4CAF50;
+    padding: 20px 0;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.register, .ordermedicines, .controlchain, .track {
+    width: 500px;
+    height: 200px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: hsl(0, 0%, 25%);
+    
+    border-radius: 10px;
+    cursor:pointer;
+    color: white;
+}
+
+.register h5, .ordermedicines h5, .controlchain h5, .track h5 {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:10px
+}
+
+.mybtn {
+    display: block;
+    width: 90%;
+    margin: 30px;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.mybtn1{
+    display: block;
+    width: 90%;
+    margin: 9px;
+    margin-top: 2px;
+    padding: 12px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #388e3c;
+}
+
+
+
+  
